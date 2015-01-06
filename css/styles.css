@@ -1,0 +1,194 @@
+body, html {
+	margin: 0;
+	padding: 0;
+}
+
+.main h1, .main h2, .main a {
+  font-family: 'Oswald', sans-serif;
+}
+
+.main p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.banner h1, .banner h2, .banner a {
+  font-family: 'Oswald', sans-serif;
+}
+
+.banner p {
+  font-family: Helvetica, Arial, sans-serif; 
+}
+
+.main {
+	background-image: url('http://goo.gl/0TeTGV');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 800px;
+	padding-top: 100px;
+	overflow: hidden;
+}
+
+.main h1 {
+	text-transform: uppercase;
+	font-size: 200px;
+	color: #fff;
+	font-weight: 700;
+}
+
+.main p {
+	font-size: 25px;
+	color: #fff;
+	margin-top: 100px;
+}
+
+.main a {
+	text-transform: uppercase;
+	font-size: 25px;
+}
+
+.main .btn {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+	padding: 15px 30px;
+	margin-top: 35px;
+}
+
+input[type='text'] {
+	margin-top: 25px;
+	width: 300px;
+	font-size: 20px;
+	padding: 10px;
+    text-transform: uppercase;
+    border: solid 1px #707070;
+    box-shadow: 0 0 5px 5px #969696; 
+    text-align: center;
+}
+
+input[type="text"]:focus {
+	outline: none;
+}
+
+ul.ui-autocomplete {
+  width: 300px;
+  list-style: none;
+  padding: 0;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px 0px;
+  border-bottom: 1px solid #eee;
+  border-left: 1px solid #eee;
+  border-right: 1px solid #eee;
+  background-color: #fff;
+  text-align: center;
+}
+
+ul.ui-autocomplete li {
+  padding: 10px;
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+}
+
+ul.ui-autocomplete li:hover {
+  background-color: #ddd;
+}
+
+.banner {
+	background-color: #1c1c1c;
+	padding: 80px 0;
+}
+
+.banner h2 {
+	text-transform: uppercase;
+	color: #ffa800;
+	font-size: 40px;
+	font-weight: 700;
+}
+
+.banner p {
+	color: #fff;
+	font-size: 17px;
+}
+
+.supporting {
+	background-image: url('http://goo.gl/YQCrQc');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 700px;
+	padding-top: 300px;
+}
+
+.supporting h1 {
+	 font-family: 'Oswald', sans-serif;
+	 font-weight: 700;
+	 text-transform: uppercase;
+	 font-size: 65px;
+	 color: #fff;
+}
+
+.supporting a {
+	text-transform: uppercase;
+	font-size: 18px;
+	font-family: 'Oswald', sans-serif;
+	color: #fff;
+}
+
+.supporting .btn {
+	padding: 10px 30px;
+	background-color: #1c1c1c;
+	border: 1px solid #1c1c1c;
+	margin-top: 20px;
+}
+
+.banner a {
+	text-transform: uppercase;
+	font-size: 15px;
+	font-family: 'Oswald', sans-serif;
+}
+
+.banner .btn {
+	padding: 10px 25px;
+	margin-top: 15px;
+}
+
+.clone {
+	background-image: url('http://goo.gl/4In5T2');
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 470px) {
+	.main h1 {
+		font-size: 165px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
